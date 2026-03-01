@@ -3,24 +3,38 @@ public class datos {
     private String Nombre;
     private int Precio;
     private int Cantidad;
-
+    
     public datos(String nombre, int precio, int cantidad) {
-        this.Nombre = nombre;
-        this.Precio = precio;
-        this.Cantidad = cantidad;
+        Nombre = nombre;
+        Precio = precio;
+        Cantidad = cantidad;
     }
 
+   
     public String getNombre() {
         return Nombre;
+    }
+
+    public void setNombre(String nombre) {
+        Nombre = nombre;
     }
 
     public int getPrecio() {
         return Precio;
     }
 
+    public void setPrecio(int precio) {
+        Precio = precio;
+    }
+
     public int getCantidad() {
         return Cantidad;
     }
+
+    public void setCantidad(int cantidad) {
+        Cantidad = cantidad;
+    }
+
 
     public datos() {
     }

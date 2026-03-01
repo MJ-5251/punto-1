@@ -6,7 +6,7 @@ public class metodos {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Ingrese nombre del producto: ");
+        System.out.println("Ingrese el nombre del producto: ");
         String nombreBuscar = sc.next();
 
         for(int i = 0; i < m.length; i++){

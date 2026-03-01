@@ -4,7 +4,7 @@ public class principal {
     
         datos[][] m = new datos[5][6];
 
-        String[] nombres = {"Arroz", "Leche", "Pan", "Azucar", "Sal", "Aceite", "Cafe", "Chocolate", "Galletas", "Huevos","Queso", "Mantequilla", "Carne", "Pollo", "Atun", "Confites", "Lentejas", "Frijoles", "Jugo", "Cereal","Yogurt", "Harina", "Mayonesa", "Gomitas", "Salsa","Detergente", "Jabon", "Shampoo", "Crema", "Papel"};
+        String[] nombres = {"Arroz", "Leche", "Pan", "Azucar", "Sal", "Aceite", "Cafe", "Chocolate", "Galletas", "Huevos","Queso", "Mantequilla", "Carne", "Pollo", "Atun", "Confites", "Lentejas", "Frijoles", "Jugo", "Cereal","Yogurt", "Harina", "Mayonesa", "Gomitas", "Salsa","Alpin", "Jabon", "Shampoo", "Crema dental", "Papel"};
 
         int contador = 0;  
         
